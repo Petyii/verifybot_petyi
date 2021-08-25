@@ -2,7 +2,9 @@
 "use strict";
 require("dotenv").config();
 
-var port = process.env.PORT || 8080;
+server.connection({
+    port: process.env.PORT || 3000 
+});
 
 const Discord = require("discord.js");
 const chalk = require("chalk");
@@ -62,5 +64,7 @@ client.on("message", message => {
     });
   }
 });
+
+
 
 client.login(BOT_TOKEN);
