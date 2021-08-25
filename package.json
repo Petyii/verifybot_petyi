@@ -22,10 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/favianrizqulloh/FAV-verifier/issues"
-  },    
-"engines": {
-"node": "5.0.0",
-"npm": "4.6.1"
   },
   "license": "MIT",
   "keywords": [
