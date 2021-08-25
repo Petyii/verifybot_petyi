@@ -2,14 +2,12 @@
 "use strict";
 require("dotenv").config();
 
-server.connection({
-    port: process.env.PORT || 3000 
-});
-
 const Discord = require("discord.js");
 const chalk = require("chalk");
 const moment = require("moment");
 const { BOT_TOKEN, VERIFICATION_CHANNEL, VERIFIED_ROLE } = process.env;
+var port = process.env.PORT || 3002
+
 
 const client = new Discord.Client({
   disableEveryone: true
