@@ -2,6 +2,8 @@
 "use strict";
 require("dotenv").config();
 
+const PORT = process.env.PORT || 5000;
+
 const Discord = require("discord.js");
 const chalk = require("chalk");
 const moment = require("moment");
