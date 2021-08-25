@@ -5,8 +5,7 @@ require("dotenv").config();
 const Discord = require("discord.js");
 const chalk = require("chalk");
 const moment = require("moment");
-const { BOT_TOKEN, VERIFICATION_CHANNEL, VERIFIED_ROLE } = process.env;
-var port = process.env.PORT || 3002
+const { BOT_TOKEN, VERIFICATION_CHANNEL, VERIFIED_ROLE, PORT } = process.env;
 
 
 const client = new Discord.Client({
